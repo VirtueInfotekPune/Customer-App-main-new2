@@ -1,0 +1,9 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #b3d8ca;
+    height: 150vh;
+    color: #fff;
+  
+  }
+

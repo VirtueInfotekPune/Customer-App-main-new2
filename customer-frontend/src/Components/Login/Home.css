@@ -1,0 +1,16 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #b3d8ca;
+  height: auto;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

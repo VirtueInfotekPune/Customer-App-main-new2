@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #b3d8ca;
+    height: 150vh;
+    color: #fff;
+  
+  }
+  @media (max-width: 768px){
+
+    .C{
+
+      background-color: #EDF1D6 !important;
+    }
+  }
+

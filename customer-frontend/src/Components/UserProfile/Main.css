@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 20%;
+    height: 100%;
+  }
+  
+  .main {
+    background-color: #EDF1D6;
+    flex-grow: 1;
+    height: 110vh;
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+   .main{
+    height: 150vh !important;
+    width: 2000vh;
+   }
+
+    
+  }
+  

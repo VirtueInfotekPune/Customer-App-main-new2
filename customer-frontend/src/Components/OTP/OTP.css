@@ -1,0 +1,49 @@
+.otp-head {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.otp-form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.otp-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.verify-otp label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.verify-otp input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.update-new{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
