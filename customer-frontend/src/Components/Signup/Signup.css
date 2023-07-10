@@ -60,8 +60,8 @@
   }
   
   .submit-button {
-    background-color: #27c690;
-    color: white;
+    background-color: #27c690 !important;
+    color: rgb(10, 10, 10) !important;
     font-size: 16px;
     font-weight: bold;
     border: none;
@@ -88,5 +88,19 @@
     color: red;
     font-size: 14px;
     margin-top: 5px;
+  }
+  @media (max-width: 768px){
+    .submit-button {
+      background-color: #27c690 !important;
+      color: rgb(15, 14, 14) !important;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+      /* visibility: visible !important; */
+    }
   }
   

@@ -90,12 +90,21 @@
     }
 
     .product-card {
-      width: 92%;
-      height: 39vh;
+      width: 49%;
+      height: 32vh;
       margin-bottom: 20px;
       padding: 2px;
       border: 0.5px solid #888;
       border-radius: 5px;
     }
+
+    .subcategory-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      width: 273px;
+      /* height: 32vh; */
+  }
   }
   
