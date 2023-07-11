@@ -118,7 +118,7 @@ function Signup() {
               ) : null}
             </div>
 
-            <button type="submit" className="submit-button">SUBMIT BUTTON</button>
+            <button type="submit" className="submit-button">UPDATE PROFILE</button>
             <button type="button" className="submit-button" onClick={() => navigate("/home")}>SKIP FOR NOW</button>
           </form>
         </div>

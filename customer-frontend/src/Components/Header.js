@@ -33,6 +33,10 @@ function Navbar(props) {
           <Link to="/cart" className="header-icon">
             <FaShoppingCart />
           </Link>
+          {/* number of count of cart  */}
+            {/* <div className="count">
+              <h1 className="zero">0</h1>
+            </div> */}
           <Link to="/wallet" className="header-icon">
             <FaWallet />
           </Link>

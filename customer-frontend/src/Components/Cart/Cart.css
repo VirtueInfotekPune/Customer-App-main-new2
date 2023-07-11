@@ -2,3 +2,125 @@
     text-align: center;
     justify-content: center;
 }
+
+
+.Cart-head{
+    text-align: center;
+    justify-content: center;
+}
+
+/* css of cart when get pop up  */
+
+
+/* when click add to cart button themn show msg addto cart css  */
+
+
+.cart-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.cart-item {
+    width: calc(90.33% - 10px); /* Adjust the width as needed */
+    border: 2px solid rgb(90, 83, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* ... Rest of your CSS styles for cart items */
+  
+  
+  .cart-message {
+    position: fixed;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #19e712;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeOut 2s ease-in;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+
+  /* css of when click cart section  */
+
+  .Cart-head {
+    text-align: center;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px; /* Add gap between cart items */
+  }
+  
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+  }
+  
+  .cart-item-image {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .cart-item-details {
+    text-align: center;
+  }
+  
+  .cart-item-remove {
+    margin-top: 10px;
+    padding: 2px 7px;
+    background-color: #9dc08b;
+    color: #111;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: all ease 0.6s;
+  }
+  .cart-item-remove:hover{
+    background-color: rgb(225, 54, 54);
+    color: #111;
+}
+@media (max-width: 768px){
+
+    .cart-message {
+        position: fixed;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #19e712;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        animation: fadeOut 2s ease-in;
+      }
+}
+
+  
+
+
+/* ****************************************************************** */
+  
